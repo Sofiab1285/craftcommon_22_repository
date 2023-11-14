@@ -1,0 +1,12 @@
+1. Data is collection of raw facts and figures Been processed or analyzed, and essential for may businesse and organizations. 
+2. Information is a powerful tool that can be used for good or for bad, it can be the context that makes data meaningful.
+3. Organized collection of data or a type of dat store based on the use of a database.
+4. A software program  that allows users to create, manage, and query relational databases. 
+5. they provide a reliable and efficient way to store and manage large amounts of structured data. RDBMSs are used by businesses and organizations of all sizes to improve their efficiency and productivity.
+6. Relational databases are store data in the table, which are made up for rows and columns. Non-relational databases are good for storing unstructured data and for application that need to be able to scale horizontally.
+7. MySQL , Microsoft SQL server, IBM DB2
+8. Document-oriented, Key-value, Graph and Wide-column.
+9. SQL is the core of a relational database which is used for accessing and managing the database. mainly used to perform Create, Read, Update, and delete.Also used to define tables and structures.
+10. DDL allows you to perform various operations on the database, structure of the table like creation of table, altering table, deleting a table ddl commands are out-committed.means it saves all the change permanently in the database. DML are used for manipulating the data stored in the table and not the table itself. It helps you to insert, update, delete and retrieve data from the database. DCL the commands to grant and take back authority from any database, allows you to control access to the database. Example  Grant or Revoke assess permissions. TCL commands are used to mange the changes madero the data in a table by DML statements. It also allows statements to be grouped together into logical Example commit, Rollback, Savepoint, Set Transaction. 
+11. Tables are typically defined using a data definition language (DDL) such as SQL. The DDL statement used to create a table specifies the name of the table, the names of the columns, and the data types of each column.
+12. Columns and rows are essential for organizing and managing data in database tables. Columns allow you to group related data together, and rows allow you to store individual records of data.
