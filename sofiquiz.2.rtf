@@ -1,0 +1,59 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0  -- comment \
+ -- this the syntax to create a table \
+ -- creat database databaseName \
+ \
+ -- creat database studentdb;\
+ -- creat schema employeedDB;\
+ -- creat database employeedDB;\
+ \
+ \
+create table student(\
+          id int, \
+          firstname varchar(50), \
+          lastname varchar(50), \
+          deparment varchar(50));\
+-- verify table created\
+CREATE DATABASE studentDB;  \
+      USE studentDB;\
+\
+create table students(\
+studid int,\
+stidFirstNmae varchar(50),\
+stuidLastNmae varchar(50),\
+stuidDepartement varchar(100)\
+\
+\
+create table student(\
+          id int not null, \
+          firstname varchar(50), \
+          lastname varchar(50), \
+          deparment varchar(50));\
+-- verify table created\
+CREATE DATABASE studentDB;  \
+      USE studentDB;\
+\
+ create table persons(\
+personID int,\
+firstNmae varchar(100),\
+lastNmae varchar(100),\
+address varchar(255),\
+city varchar(100)\
+);\
+\
+CREATE TABLE customers (\
+  Cust_ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,\
+  Customer_Name VARCHAR(50) NOT NULL,\
+  Address VARCHAR(100) NOT NULL,\
+  City VARCHAR(50) NOT NULL,\
+  State VARCHAR(25) NOT NULL,\
+  Zip_Code VARCHAR(10) NOT NULL,\
+  Email VARCHAR(100) NOT NULL,\
+  Phone_Number VARCHAR(20) NOT NULL\
+);}
